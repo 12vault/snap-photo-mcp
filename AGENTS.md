@@ -84,6 +84,34 @@ Apply the same research to the caption. If research surfaces a trending narrativ
 
 ---
 
+## Continuous story brand pics
+
+When the user asks for **"6 core brand pics with short continuous story"**, **"brand pics with a story"**, or similar, call `generate_brand_story_pics` once.
+
+### Story rules
+- Generate exactly 6 short story beats, one per slide.
+- The beats must read as one continuous mini-story across the whole carousel, not six unrelated captions.
+- Use the strongest hook formula: **who is the other person and what is the conflict?**
+- Keep each beat short enough for a TikTok overlay.
+- Avoid feature-forward copy. The story should sell the feeling of visible progress, earned mastery, and momentum.
+
+### Default story arc
+1. Conflict / doubt from another person
+2. The tiny first session
+3. A streak begins
+4. Time and patterns become visible
+5. Progress becomes emotionally believable
+6. CTA / leveling-up payoff
+
+### Tool mapping
+Use `generate_brand_story_pics` with:
+- `storyTexts`: the 6 continuous story beats
+- `sessionId`: `{activity}-story-{MMDD}` when an activity is clear
+- `viralCaption`: caption formula rewritten around the same mini-story
+- `picNames`: omit unless the user asks for specific screenshots; the tool has a default app journey order
+
+---
+
 ## Hook formulas (ranked by performance)
 1. **[Person] + [doubt/conflict] + [result they saw]** → best. 100K+ views consistently.
    - "My friend said I'd never actually finish my goals — so I showed her my 90-day streak"
