@@ -5,8 +5,8 @@ MCP server that generates TikTok photo carousels using the Gemini image API, app
 ## Requirements
 
 - Go 1.21+
-- A Gemini API key ([get one here](https://aistudio.google.com/app/apikey))
-- TikTok Developer credentials (only needed for `post_to_tiktok`)
+- A Gemini API key ([get one here](https://aistudio.google.com/app/apikey)) (Optional)
+- TikTok Developer credentials (only needed for `post_to_tiktok`) (Optional)
 
 ## Setup
 
